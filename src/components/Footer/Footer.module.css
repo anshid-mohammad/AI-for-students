@@ -1,0 +1,56 @@
+.footer {
+    background: #00A8A8;
+    color: white;
+    border-radius: 20px;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.socialIcons {
+    margin-top: 10px;
+}
+
+.socialLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.socialLink:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid white;
+    margin-top: 1rem;
+}
+
+.footerBottom p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0;
+}

@@ -1,0 +1,47 @@
+.enrollNowSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.enrollNow {
+    text-align: center;
+    border-radius: 12px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.CtaButton{
+    margin-top: 20px;
+
+}
+.enroll_text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5c5555;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    letter-spacing: .8px;
+    animation: pulseGlow 1.5s infinite, fadeIn 1.2s ease-in-out;
+}
+
+
+@keyframes pulseGlow {
+    0% { box-shadow: 0px 0px 10px rgba(47, 195, 198, 0.5); }
+    50% { box-shadow: 0px 0px 20px rgba(28, 165, 177, 0.8); }
+    100% { box-shadow: 0px 0px 10px rgba(24, 147, 160, 0.5); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 768px) {
+    .enroll_text {
+        font-size: .7rem;
+      
+    }   
+}
