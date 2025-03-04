@@ -27,6 +27,19 @@
     font-weight: bold;
     color: #003f3f;
     border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.faq-question:hover {
+    color: aqua;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #00A8A8 !important; 
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 .faq-answer {
@@ -45,9 +58,6 @@
 }
 
 
-.accordion-button::after {
-    display: none !important;
-}
 
 @media (max-width: 768px) {
     .faq-content {

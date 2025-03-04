@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
 import logo from '../../assets/aifer-logo.svg';
 import styles from './Header.module.css';
-import EnrollPopup from '../EnrollNowPopup/EnrollPopup';
 
 const Header = () => {
-     const [isPopupOpen, setIsPopupOpen] = useState(false);
-    
-      const togglePopup = () => {
-        setIsPopupOpen(!isPopupOpen);
-      };
-    
+  
     return (
         <header className={styles.header}>
             <nav className={`navbar shadow-sm ${styles.navbar}`}>
@@ -18,12 +12,11 @@ const Header = () => {
                         <img src={logo} alt="Aifer" className={`d-inline-block align-text-top ${styles.brand}`} />
                     </a>
 
-                    <button onClick={togglePopup} className={`${styles.joinBtn} position-absolute ml-auto end-0  me-3`}>
+                    <button  className={`${styles.joinBtn} position-absolute ml-auto end-0  me-3`}>
                         Join Now 
                     </button>
                 </div>
             </nav>
-            {isPopupOpen && <EnrollPopup toggleModal={togglePopup} />}
 
         </header>
     );

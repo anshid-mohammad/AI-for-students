@@ -29,7 +29,7 @@ const EnrollPopup = ({ toggleModal }) => {
           <form>
             <div className="mb-1">
               <input
-                type="number"
+                type=""
                 className="form-control"
                 id="pincode"
                 name="pincode"

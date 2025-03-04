@@ -132,3 +132,20 @@
         margin-bottom: 5px;
     }
 }
+@media (min-width: 800px) and (max-width: 1280px) { 
+    .feature {
+        width: 45%;
+        height: 120px;
+        border-top: 1px solid #00A8A8; 
+        
+    }   
+    .featuresGrid {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .enroll_text {
+        font-size: 1.3rem; 
+         margin-top: 60px;
+      
+    }
+}

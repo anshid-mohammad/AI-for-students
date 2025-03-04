@@ -26,6 +26,7 @@
     }
 }
 @media (max-width: 1200px) {
+
     .home_banner {
         background: url('../../assets/mobileImg.jpg') no-repeat center center/cover;
     } 

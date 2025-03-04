@@ -166,3 +166,21 @@
         padding: 30px 10px;
     }
 }
+@media (min-width: 768px) and (max-width: 1024px) { 
+   
+    .carouselContent{
+        margin-bottom: 35px;    
+    }
+    .carouselContent h3 {
+        font-size: 1rem;
+    }
+    .imageSection {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 300px;
+        max-width: 550px;
+    }
+
+}
